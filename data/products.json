@@ -1,0 +1,34 @@
+{
+    "products": [
+        {
+            "id": "classic-gold-chain",
+            "name": "Classic Gold Chain",
+            "category": "Chains",
+            "purity": "18K",
+            "weight": "Available on request",
+            "length": "Available on request",
+            "price": "Request Price",
+            "image": "assets/images/products/chain-01.jpg"
+        },
+        {
+            "id": "signature-bracelet",
+            "name": "Signature Gold Bracelet",
+            "category": "Bracelets",
+            "purity": "18K",
+            "weight": "Available on request",
+            "length": "Available on request",
+            "price": "Request Price",
+            "image": "assets/images/products/bracelet-01.jpg"
+        },
+        {
+            "id": "heritage-chain",
+            "name": "Heritage Gold Chain",
+            "category": "Chains",
+            "purity": "22K",
+            "weight": "Available on request",
+            "length": "Available on request",
+            "price": "Request Price",
+            "image": "assets/images/products/chain-02.jpg"
+        }
+    ]
+}
