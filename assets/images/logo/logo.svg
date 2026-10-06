@@ -1,1 +1,22 @@
+<svg width="420" height="100" viewBox="0 0 420 100" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="100" fill="#FAF7F2"/>
 
+  <text
+    x="210"
+    y="57"
+    text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="38"
+    letter-spacing="8"
+    fill="#111111">
+    MRTALLMAN
+  </text>
+
+  <line
+    x1="145"
+    y1="75"
+    x2="275"
+    y2="75"
+    stroke="#C8A24A"
+    stroke-width="2"/>
+</svg>
