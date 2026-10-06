@@ -740,4 +740,482 @@ a {
 
     }
 
+}@media (max-width: 800px) {
+
+    .story-section,
+    .product-detail {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .shipping-steps {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .shipping-notice {
+
+        margin-left: 5%;
+
+        margin-right: 5%;
+
+        padding: 40px 25px;
+
+    }
+
+
+    .contact-details {
+
+        flex-direction: column;
+
+        gap: 35px;
+
+    }
+
+}
+/* =========================================
+   INNER PAGES
+========================================= */
+
+.page-intro {
+
+    max-width: 1000px;
+
+    padding: 130px 5%;
+
+    margin: auto;
+
+}
+
+
+.page-intro h1 {
+
+    font-family: Georgia, serif;
+
+    font-size: clamp(50px, 7vw, 100px);
+
+    font-weight: 400;
+
+    line-height: 0.95;
+
+    max-width: 900px;
+
+}
+
+
+.page-intro-text {
+
+    max-width: 600px;
+
+    margin-top: 35px;
+
+    color: var(--muted);
+
+    font-size: 18px;
+
+}
+
+
+/* =========================================
+   ABOUT
+========================================= */
+
+.story-section {
+
+    max-width: var(--max-width);
+
+    margin: auto;
+
+    padding: 50px 5% 130px;
+
+    display: grid;
+
+    grid-template-columns: 1.2fr 1fr;
+
+    gap: 80px;
+
+    align-items: center;
+
+}
+
+
+.story-image {
+
+    aspect-ratio: 4 / 5;
+
+    overflow: hidden;
+
+}
+
+
+.story-image img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+}
+
+
+.story-content h2 {
+
+    font-family: Georgia, serif;
+
+    font-size: 50px;
+
+    font-weight: 400;
+
+    line-height: 1;
+
+    margin-bottom: 30px;
+
+}
+
+
+.story-content p {
+
+    color: var(--muted);
+
+    margin-bottom: 20px;
+
+    max-width: 500px;
+
+}
+
+
+/* =========================================
+   SHIPPING
+========================================= */
+
+.shipping-steps {
+
+    max-width: var(--max-width);
+
+    margin: auto;
+
+    padding: 40px 5% 120px;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 30px;
+
+}
+
+
+.shipping-step {
+
+    border-top: 1px solid var(--border);
+
+    padding-top: 20px;
+
+}
+
+
+.shipping-step span {
+
+    color: var(--gold);
+
+}
+
+
+.shipping-step h2 {
+
+    font-family: Georgia, serif;
+
+    font-weight: 400;
+
+    font-size: 35px;
+
+    margin: 35px 0 15px;
+
+}
+
+
+.shipping-step p {
+
+    color: var(--muted);
+
+}
+
+
+.shipping-notice {
+
+    max-width: 900px;
+
+    margin: 0 auto 130px;
+
+    padding: 70px;
+
+    background: var(--white);
+
+}
+
+
+.shipping-notice h2 {
+
+    font-family: Georgia, serif;
+
+    font-weight: 400;
+
+    font-size: 45px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.shipping-notice p {
+
+    color: var(--muted);
+
+    max-width: 600px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.shipping-notice .button {
+
+    margin-top: 20px;
+
+}
+
+
+/* =========================================
+   PRODUCT PAGE
+========================================= */
+
+.product-detail {
+
+    max-width: var(--max-width);
+
+    margin: auto;
+
+    padding: 70px 5% 130px;
+
+    display: grid;
+
+    grid-template-columns:
+        1.1fr 0.9fr;
+
+    gap: 80px;
+
+}
+
+
+.product-detail-image {
+
+    aspect-ratio: 4 / 5;
+
+    overflow: hidden;
+
+    background: #EDE8DF;
+
+}
+
+
+.product-detail-image img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+}
+
+
+.product-detail-info {
+
+    align-self: center;
+
+}
+
+
+.product-detail-info h1 {
+
+    font-family: Georgia, serif;
+
+    font-size: clamp(45px, 5vw, 75px);
+
+    font-weight: 400;
+
+    line-height: 1;
+
+    margin-bottom: 15px;
+
+}
+
+
+.product-detail-category {
+
+    color: var(--muted);
+
+    margin-bottom: 50px;
+
+}
+
+
+.product-specifications {
+
+    border-top: 1px solid var(--border);
+
+    border-bottom: 1px solid var(--border);
+
+}
+
+
+.product-specifications div {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    padding: 16px 0;
+
+    border-bottom: 1px solid var(--border);
+
+}
+
+
+.product-specifications div:last-child {
+
+    border-bottom: none;
+
+}
+
+
+.product-specifications span {
+
+    color: var(--muted);
+
+}
+
+
+.product-specifications strong {
+
+    font-weight: 400;
+
+}
+
+
+.product-price {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    padding: 25px 0;
+
+}
+
+
+.product-price strong {
+
+    font-size: 20px;
+
+}
+
+
+.product-note {
+
+    color: var(--muted);
+
+    font-size: 13px;
+
+    margin-top: 20px;
+
+    max-width: 450px;
+
+}
+
+
+/* =========================================
+   CONTACT
+========================================= */
+
+.contact-page {
+
+    max-width: 1000px;
+
+    margin: auto;
+
+    padding: 140px 5%;
+
+}
+
+
+.contact-page h1 {
+
+    font-family: Georgia, serif;
+
+    font-size: clamp(55px, 8vw, 110px);
+
+    font-weight: 400;
+
+    line-height: 0.95;
+
+    margin-bottom: 30px;
+
+}
+
+
+.contact-page > p:not(.eyebrow) {
+
+    color: var(--muted);
+
+    max-width: 500px;
+
+    margin-bottom: 35px;
+
+}
+
+
+.contact-details {
+
+    margin-top: 100px;
+
+    display: flex;
+
+    gap: 100px;
+
+}
+
+
+.contact-details div {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+
+}
+
+
+.contact-details span {
+
+    color: var(--muted);
+
+    font-size: 11px;
+
+    letter-spacing: 0.15em;
+
+}
+
+
+.contact-details strong {
+
+    font-weight: 400;
+
 }
