@@ -96,6 +96,11 @@ a {
     letter-spacing: 0.18em;
 
 }
+.logo img {
+    display: block;
+    width: 180px;
+    height: auto;
+}
 
 
 .main-nav {
